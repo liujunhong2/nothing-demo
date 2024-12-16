@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html id="container">
+
+<head>
+    <meta charset="UTF-8">
+    <title>分解</title>
+    <meta name="viewport" content="width=device-width,user-scalable=0">
+
+    <style>
+        html {
+            text-align: center;
+            background: #b3d0d0;
+            color: #002b41;
+            transition: background-color 1s ease, color 1s ease;
+            font-family: sans-serif;
+            word-break: break-all;
+        }
+
+        body {
+            margin: 0;
+            padding: 0 0 100px;
+        }
+
+        input, button {
+            outline: 0;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            padding: 8px 12px;
+            border: 0;
+            margin: 10px;
+            width: 80%;
+            max-width: 300px;
+            -webkit-appearance: none;
+        }
+
+        #result {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100px; border: 0; font-size: 24px; font-weight: bold; color: #333; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        这个世界不止有恶臭数字!
+    </div>    
+   
+    <input id="num" placeholder="输入身份证后六位(X默认为0)" type="number"><br>
+    <button id="submit">提交</button><br>
+    <input id="query" placeholder="输入目标数值" type="number">
+    <div id="result"></div>
+    <script src="homo.js"></script>
+    <footer>
+		<p>复制请保持开源并保留引用信息</p>
+		<a href="https://github.com/itorr/homo">恶臭之源</a>
+		<a href="https://github.com/liujunhong2/nothing-demo.git">善香之源</a>
+	</footer>
+</body>
+
+</html>
